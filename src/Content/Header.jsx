@@ -12,11 +12,11 @@ export default function Header() {
                     
 
                         <Link to="/Home" className="flex space-x-2" >
-                        <img
-                className="h-8 w-8  flex shrink-0"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                alt="Workflow"
-               />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+<path d="M5.5 25H43V43.75H24.25C13.8947 43.75 5.5 35.3553 5.5 25Z" fill="#FFD43D"/>
+<path opacity="0.8" d="M5.5 25C5.5 35.3553 13.8947 43.75 24.25 43.75V6.25C13.8947 6.25 5.5 14.6447 5.5 25Z" fill="#3A0FD0"/>
+<path d="M43 6.25H29.875L43 19.375V6.25Z" fill="#6241D4"/>
+</svg>   
      <h4 className="text-2xl font-bold text-black ">Eyewitnex</h4>
                         </Link>
                         
