@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter , Routes, Route } from "react-router-dom";
-//import Blog from './Pages/Blog';
+import Blog from './Pages/Blog';
 import About from './Pages/About ';
 import FAQs from './Pages/FAQs';
 import Login from './Pages/Login';
@@ -18,6 +18,7 @@ const route = () => {
           <Route path="/Signup" element={<Signup />} />
             <Route path="/About" element={<About />} />
             <Route path="/FAQs" element={<FAQs />} />
+            <Route path="/Blog" element={<Blog />} />
 
       </Routes>
       </BrowserRouter>,
