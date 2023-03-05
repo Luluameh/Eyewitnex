@@ -87,8 +87,8 @@ const Features = () => {
 
         </div>
         <div className='  bg-[#060C3C]  w-full'>
-          <div className='flex'>
-            <p className='w-1/3'>
+          <div className=' flex  flex-row '>
+            <p className='lg:w-1/3 md:w-0'>
           <svg xmlns="http://www.w3.org/2000/svg" width="134" height="194" viewBox="0 0 134 194" fill="none" className='w-14 h-16'>
 <g opacity="0.35">
 <path d="M60 0H0V60H60V0Z" fill="#36268C"/>
@@ -98,24 +98,34 @@ const Features = () => {
 </g>
 </svg>
 </p>
-<p className='w-1/3'>
-<div className='m-aut0 text-white flex gap-6 '>
-  <p className='text-center'>
+<div className='lg:w-1/3 ml-6 md:ml-0 w-32 '>
+<div className='m-aut0 text-black flex flex-row  gap-6 p-2 '>
+  <div  className="mb-2 block text-center rounded-md bg-white p-2 text-xs 
+   font-medium uppercase leading-normal text-black shadow transition duration-150 ease-in-out
+    hover:bg-gray-300 font-Manrope"
+     >
      1,000+
-  <h1> Transactions</h1>
-  </p>
-  <p className='text-center'>
+  <p className='font-bold'> Transactions</p>
+  </div>
+  <div className=' className="mb-2 block text-center rounded-md bg-white p-2 text-xs w-24 
+   font-medium uppercase leading-normal text-black shadow transition duration-150 ease-in-out
+    hover:bg-gray-300 font-Manrope"
+ '>
      1,000+
-  <h1>Buyers</h1>
-  </p>
-  <p className='text-center'>
+  <p className='font-bold'>Buyers</p>
+  </div>
+  <div className=' className="mb-2 block text-center rounded-md bg-white p-2 text-xs w-24
+   font-medium uppercase leading-normal text-black shadow transition duration-150 ease-in-out
+    hover:bg-gray-300 font-Manrope"
+ '>
+
      1,000+
-  <h1>Sellers</h1>
-  </p>
+  <p className='font-bold'>Sellers</p>
+  </div>
 
 </div>
-</p>
-<p className='w-1/3'>
+</div>
+<div className='lg:ml-auto md:ml-10'>
 <svg xmlns="http://www.w3.org/2000/svg" width="134" height="194" viewBox="0 0 134 194" fill="none" className='w-14 h-16 '>
 <g opacity="0.35">
 <path d="M60 0H0V60H60V0Z" fill="#36268C"/>
@@ -125,7 +135,7 @@ const Features = () => {
 </g>
 </svg>
 
-</p>
+</div>
           </div>
 </div>
 
