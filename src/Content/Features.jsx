@@ -29,7 +29,8 @@ const Features = () => {
 
             </div>
             {/* Form side */}
-            <div className="p-4">
+            <div className='mix-blend-darken bg-Pattern2 bg-right lg:p-10 md:p-0 '>
+            <div className="p-4  ">
               <div className="max-w-sm mx-auto  rounded-lg overflow-hidden shadow-2xl">
                 <div className="px-6 py-4 ">
                   <form className=" rounded px-8 pt-6 pb-8 mb-4  ">
@@ -73,48 +74,65 @@ const Features = () => {
 
               </div>
 
-              {/**Bottom square design */}
-              <div className=' '>
-                <svg xmlns="http://www.w3.org/2000/svg" width="115" height="114" viewBox="0 0 115 114" fill="none " className='m-auto '>
-                  <rect width="90" height="90" transform="matrix(-0.950024 0.312177 0.312177 0.950024 86.3472 0.00683594)" fill="#F4F1FF" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="84" height="63" viewBox="0 0 84 63" fill="none" className='m-auto'>
-                  <rect width="66" height="66" transform="matrix(-0.950024 0.312177 0.312177 0.950024 62.709 0.719727)" fill="#F4F1FF" />
-                </svg>
+              <div className='m-16 '>
               </div>
             </div>
-            {/* Side upper square design */}
-            <div className="absolute  right-0 mix-blend-darkentransform -translate-x-2/4 bottom-0 pointer-events-none max-md:hidden" aria-hidden="true">
-
-              <div id="main" className="grid grid-rows-2 grid-flow-col gap-0   ">
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140" fill="none" className=''>
-                  <rect width="110" height="110" transform="matrix(0.312177 0.950024 0.950024 -0.312177 0.203369 34.5459)" fill="#F4F1FF" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="165" height="165" viewBox="0 0 165 165" fill="none" className='mx-2 mix-blend-overlay 
-         ' >
-                  <rect width="130" height="130" transform="matrix(0.312177 0.950024 0.950024 -0.312177 0.0393066 40.6318)" fill="#F4F1FF" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="114" height="115" viewBox="0 0 114 115" fill="none" className=''>
-                  <rect width="90" height="90" transform="matrix(0.312177 0.950024 0.950024 -0.312177 0.125488 28.5518)" fill="#F4F1FF" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none" className=''>
-                  <rect x="0.475098" y="12.6357" width="40" height="40" transform="rotate(-18.1905 0.475098 12.6357)" fill="#F4F1FF" />
-                </svg>
-                {/* the down side from 98 */}
-
-              </div>
-            </div>
+</div>
 
 
 
 
+ </div>
 
 
-
-          </div>
-          <FeatureTwo />
         </div>
+        <div className='  bg-[#060C3C]  w-full'>
+          <div className='flex'>
+            <p className='w-1/3'>
+          <svg xmlns="http://www.w3.org/2000/svg" width="134" height="194" viewBox="0 0 134 194" fill="none" className='w-14 h-16'>
+<g opacity="0.35">
+<path d="M60 0H0V60H60V0Z" fill="#36268C"/>
+<path d="M134 60H60V134H134V60Z" fill="#36268C"/>
+<path d="M109 170H85V194H109V170Z" fill="#36268C"/>
+<path d="M48 146H0V194H48V146Z" fill="#36268C"/>
+</g>
+</svg>
+</p>
+<p className='w-1/3'>
+<div className='m-aut0 text-white flex gap-6 '>
+  <p className='text-center'>
+     1,000+
+  <h1> Transactions</h1>
+  </p>
+  <p className='text-center'>
+     1,000+
+  <h1>Buyers</h1>
+  </p>
+  <p className='text-center'>
+     1,000+
+  <h1>Sellers</h1>
+  </p>
+
+</div>
+</p>
+<p className='w-1/3'>
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="194" viewBox="0 0 134 194" fill="none" className='w-14 h-16 '>
+<g opacity="0.35">
+<path d="M60 0H0V60H60V0Z" fill="#36268C"/>
+<path d="M134 60H60V134H134V60Z" fill="#36268C"/>
+<path d="M109 170H85V194H109V170Z" fill="#36268C"/>
+<path d="M48 146H0V194H48V146Z" fill="#36268C"/>
+</g>
+</svg>
+
+</p>
+          </div>
+</div>
+
+
+
+            <FeatureTwo />
+
 
 
       </section>

@@ -9,6 +9,11 @@ module.exports = {
       fontFamily: {
         'Manrope': ['Manrope', 'sans-serif']
       },
+      backgroundImage: {
+        'Bg': "url('../public/Img/Bg.jpg')",
+        'Pattern2': "url(../public/Img/Pattern2.jpg)"
+      
+  },
 
 
     },

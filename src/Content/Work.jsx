@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import Pattern from '../Images/Pattern.jpg'
 import Pattern1 from '../Images/Pattern1.jpg'
-import { Footer } from './Footer'
 
 
 const Work = () => {
@@ -57,7 +56,7 @@ const Work = () => {
         <div>
 
         </div>
-        <div className='p-16  mb-4'>
+        <div className='p-16  m-0'>
           <p className=' lg:w-2/4 md:w-full m-auto  '>
             There is no point to transact in fear or not even transact out of fear. Eyewitnex keeps both parties in charge of the transaction every step of the way
           </p>
@@ -76,20 +75,11 @@ const Work = () => {
           <img src={Pattern1} alt="" className='w-42 h-60' />
         </div>
         <div className="absolute    bottom-16 pointer-events-none max-md:hidden" aria-hidden="true">
-          <img src={Pattern} alt="" className='w-40' />
+          <img src={Pattern} alt="" className='w-32' />
         </div>
         <div >
         </div>
-
-        <div className='mb-6'>
-          <h1 className='font-bold lg:text-3xl md:text-2xl  mb-5 '>
-            Frequently asked questions (FAQs)</h1>
-        </div>
-        <div className='p-6 mb-6'>
-          <Footer />
-        </div>
-
-
+     
       </section>
 
 

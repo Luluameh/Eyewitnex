@@ -1,5 +1,6 @@
 import React from 'react'
 import Features from '../Content/Features'
+import { Ending } from '../Content/Ending'
 
 import Header from '../Content/Header'
 
@@ -12,7 +13,11 @@ const Home = () => {
     <Header/>
     <main className='flex-grow'>
     <Features/>
-    
+    <div className='p-4 mb-4'>
+          <Ending/>
+        </div>
+
+
     </main>
     </div>
     </>
