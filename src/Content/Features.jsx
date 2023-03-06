@@ -98,8 +98,8 @@ const Features = () => {
 </g>
 </svg>
 </p>
-<div className='lg:w-1/3 ml-6 md:ml-0 w-32 '>
-<div className='m-aut0 text-black flex flex-row  gap-6 p-2 '>
+<div className='lg:w-1/3 ml-6 md:m-0 w-32 '>
+<div className='lg:m-aut0 gap-6 md:m-0  text-black flex flex-row   p-2 '>
   <div  className="mb-2 block text-center rounded-md bg-white p-2 text-xs 
    font-medium uppercase leading-normal text-black shadow transition duration-150 ease-in-out
     hover:bg-gray-300 font-Manrope"
@@ -107,7 +107,7 @@ const Features = () => {
      1,000+
   <p className='font-bold'> Transactions</p>
   </div>
-  <div className=' className="mb-2 block text-center rounded-md bg-white p-2 text-xs w-24 
+  <div className=' className="mb-2 block text-center rounded-md bg-white p-2 text-xs lg:w-24 md:w-8
    font-medium uppercase leading-normal text-black shadow transition duration-150 ease-in-out
     hover:bg-gray-300 font-Manrope"
  '>
@@ -118,14 +118,13 @@ const Features = () => {
    font-medium uppercase leading-normal text-black shadow transition duration-150 ease-in-out
     hover:bg-gray-300 font-Manrope"
  '>
-
-     1,000+
+  1,000+
   <p className='font-bold'>Sellers</p>
   </div>
 
 </div>
 </div>
-<div className='lg:ml-auto md:ml-10'>
+<div className='lg:ml-auto md:ml-0'>
 <svg xmlns="http://www.w3.org/2000/svg" width="134" height="194" viewBox="0 0 134 194" fill="none" className='w-14 h-16 '>
 <g opacity="0.35">
 <path d="M60 0H0V60H60V0Z" fill="#36268C"/>
@@ -140,27 +139,12 @@ const Features = () => {
 </div>
 
 
-
-            <FeatureTwo />
+<FeatureTwo />
 
 
 
       </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </>
+  </>
   )
 }
 

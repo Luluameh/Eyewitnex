@@ -2,6 +2,7 @@ import React from 'react'
 //import { Link } from 'react-router-dom'
 import Pattern from '../Images/Pattern.jpg'
 import Pattern1 from '../Images/Pattern1.jpg'
+import Rectangle154 from '../Images/Rectangle 154.png'
 
 
 const Work = () => {
@@ -19,19 +20,19 @@ const Work = () => {
 
                   <p className=''>
                     <button className='text-black border bg-white rounded-xl pr-2 text-center pl-2 m-auto '>Step <strong>1</strong></button>
-                    <span className=''> Buyer or Seller starts a transaction </span>
+                    <span className='ml-2'> Buyer or Seller starts a transaction </span>
                   </p>
                   <p className=''>
                     <button className='text-[#F4F1FF66] border border-gray-500 bg-[#060C3C] rounded-xl pr-2 text-center pl-2 '>Step <strong>2</strong></button>
-                    <span className=' text-[#F4F1FF66]'>Buyer pays into Eyewitnex  </span>
+                    <span className='ml-2 text-[#F4F1FF66]'>Buyer pays into Eyewitnex  </span>
                   </p>
                   <p className=''>
-                    <button className='text-[#F4F1FF66] border border-gray-500 bg-[#060C3C] rounded-xl pr-2 text-center pl-2 mr-7 '>Step <strong>3</strong></button>
-                    <span className='ml-0 text-[#F4F1FF66]'> Seller sends item </span>
+                    <button className='text-[#F4F1FF66] border border-gray-500 bg-[#060C3C] rounded-xl pr-2 text-center pl-2 m-auto'>Step <strong>3</strong></button>
+                    <span className=' ml-2 text-[#F4F1FF66]'> Seller sends item </span>
                   </p>
                   <p className=''>
                     <button className='text-[#F4F1FF66] border border-gray-500 bg-[#060C3C] rounded-xl pr-2 text-center pl-2 '>Step <strong>4</strong></button>
-                    <span className=' text-[#F4F1FF66]'> Buyer receives item </span>
+                    <span className='ml-2 text-[#F4F1FF66]'> Buyer receives item </span>
                   </p>
                   <p className=''>
                     <button className='text-[#F4F1FF66] border border-gray-500 bg-[#060C3C] rounded-xl pr-2 text-center pl-2 '>Step <strong>5</strong></button>
@@ -41,10 +42,12 @@ const Work = () => {
 
               </div>
               <div className='w-42 ml-auto '>
-                <svg xmlns="http://www.w3.org/2000/svg" width="360" height="340" viewBox="0 0 360 340" fill="none" className='  lg:object-none h-4/6 w-full md:object-contain h-48 w-98 '>
+             {/*   <svg xmlns="http://www.w3.org/2000/svg" width="360" height="340" viewBox="0 0 360 340" fill="none"className='  lg:object-none h-4/6 w-full md:object-contain h-48 w-98 '>
                   <path fillRule="evenodd" clipRule="evenodd" d="M1.07696 178.814C-2.48186 114.39 13.7704 38.9784 70.5912 8.49409C123.056 -19.6534 177.848 34.5482 234.203 53.742C277.165 68.3744 333.536 63.7775 353.155 104.732C372.677 145.485 340.461 189.491 318.017 228.707C298.7 262.461 273.782 290.037 238.176 305.635C189.434 326.989 135.242 354.439 88.3149 329.339C34.5366 300.573 4.44292 239.746 1.07696 178.814Z" fill="#C4C4C4" />
                 </svg>
-
+  */}
+  <img src={Rectangle154}alt=''className=' '
+ />
               </div>
 
             </div>
