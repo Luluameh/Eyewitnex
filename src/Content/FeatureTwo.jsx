@@ -34,7 +34,7 @@ buyers and sellers to ensure both parties
 are secured against scam
 
 </p>
-<div className=" lg:columns-2 gap-2 md: columns-2 ">
+<div className=" lg:columns-2 gap-2 md:columns-2 ">
   {/**Buyer side content */}
   <div>
     <h2 className='font-semibold tracking-wider p-4'>As  a Buyer you get to...</h2>
@@ -218,6 +218,7 @@ Transaction on Whatsapp, Instagram, Facebook, Twitter or any online medium can b
 <div className='p-4'>
 <Work/>
 </div>
+
 
 
     </>
